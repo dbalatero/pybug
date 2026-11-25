@@ -13,13 +13,13 @@ and fix the implementation. Keep the public API and the shift replay intact.
 From the repository root, using Python 3.9 or newer and its standard library:
 
 ```sh
-python3 -m unittest discover -v
+python3 run_tests.py
 ```
 
 To run just the reported incident:
 
 ```sh
-python3 -m unittest -v tests.test_locker.LockerTests.test_evening_shift_replay
+python3 run_tests.py tests.test_locker.LockerTests.test_evening_shift_replay
 ```
 
 ## Service contract
